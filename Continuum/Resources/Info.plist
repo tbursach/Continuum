@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requests camera usage in order to create hypes with photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requests photo library usage in order to create hypes with photos</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

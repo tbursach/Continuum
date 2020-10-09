@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0BE6E3252FDCBA00619C30 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0BE6E2252FDCBA00619C30 /* CloudKit.framework */; };
+		AB2D2499252D0A4A002A96C8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D2498252D0A49002A96C8 /* Post.swift */; };
+		AB2D249D252D0A65002A96C8 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D249C252D0A65002A96C8 /* Comment.swift */; };
+		AB2D24A1252D0B5E002A96C8 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D24A0252D0B5E002A96C8 /* PostListTableViewController.swift */; };
+		AB2D24A4252D0B7D002A96C8 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D24A3252D0B7D002A96C8 /* PostDetailTableViewController.swift */; };
+		AB2D24A7252D0B8F002A96C8 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D24A6252D0B8F002A96C8 /* AddPostTableViewController.swift */; };
+		AB2D24AB252D0F59002A96C8 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D24AA252D0F59002A96C8 /* PostController.swift */; };
+		AB2D24AF252D0FE8002A96C8 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D24AE252D0FE8002A96C8 /* PostError.swift */; };
+		AB2D24B8252D15CD002A96C8 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D24B7252D15CD002A96C8 /* PostTableViewCell.swift */; };
+		AB2D24BD252D2733002A96C8 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D24BC252D2733002A96C8 /* DateExtension.swift */; };
+		ABAF9511252E626700E7D509 /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF9510252E626700E7D509 /* SearchableRecord.swift */; };
+		ABAF9517252F83D400E7D509 /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF9516252F83D200E7D509 /* PhotoSelectorViewController.swift */; };
 		F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F99C382211F96400D13C4C /* AppDelegate.swift */; };
 		F7F99C3E2211F96400D13C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3C2211F96400D13C4C /* Main.storyboard */; };
 		F7F99C402211F96600D13C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3F2211F96600D13C4C /* Assets.xcassets */; };
@@ -14,6 +26,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB0BE6DF252FDC9200619C30 /* Continuum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Continuum.entitlements; sourceTree = "<group>"; };
+		AB0BE6E2252FDCBA00619C30 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		AB2D2498252D0A49002A96C8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AB2D249C252D0A65002A96C8 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		AB2D24A0252D0B5E002A96C8 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		AB2D24A3252D0B7D002A96C8 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		AB2D24A6252D0B8F002A96C8 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
+		AB2D24AA252D0F59002A96C8 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		AB2D24AE252D0FE8002A96C8 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
+		AB2D24B7252D15CD002A96C8 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AB2D24BC252D2733002A96C8 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		ABAF9510252E626700E7D509 /* SearchableRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
+		ABAF9516252F83D200E7D509 /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
 		F7F99C352211F96400D13C4C /* Continuum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Continuum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F99C382211F96400D13C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F99C3D2211F96400D13C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,17 +52,110 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0BE6E3252FDCBA00619C30 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB0BE6E1252FDCBA00619C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0BE6E2252FDCBA00619C30 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB2D248E252D099E002A96C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7F99C382211F96400D13C4C /* AppDelegate.swift */,
+				F7F99C3F2211F96600D13C4C /* Assets.xcassets */,
+				F7F99C412211F96600D13C4C /* LaunchScreen.storyboard */,
+				F7F99C442211F96600D13C4C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB2D2492252D0A04002A96C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D2497252D0A26002A96C8 /* ModelControllers */,
+				AB2D2496252D0A1F002A96C8 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB2D2493252D0A0D002A96C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D24B6252D15B1002A96C8 /* CustomViews */,
+				AB2D2495252D0A19002A96C8 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB2D2494252D0A14002A96C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D2498252D0A49002A96C8 /* Post.swift */,
+				AB2D249C252D0A65002A96C8 /* Comment.swift */,
+				ABAF9510252E626700E7D509 /* SearchableRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB2D2495252D0A19002A96C8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7F99C3C2211F96400D13C4C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AB2D2496252D0A1F002A96C8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D24A0252D0B5E002A96C8 /* PostListTableViewController.swift */,
+				AB2D24A3252D0B7D002A96C8 /* PostDetailTableViewController.swift */,
+				AB2D24A6252D0B8F002A96C8 /* AddPostTableViewController.swift */,
+				ABAF9516252F83D200E7D509 /* PhotoSelectorViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB2D2497252D0A26002A96C8 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D24AA252D0F59002A96C8 /* PostController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		AB2D24AD252D0FD2002A96C8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D24AE252D0FE8002A96C8 /* PostError.swift */,
+				AB2D24BC252D2733002A96C8 /* DateExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AB2D24B6252D15B1002A96C8 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D24B7252D15CD002A96C8 /* PostTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		F7F99C2C2211F96400D13C4C = {
 			isa = PBXGroup;
 			children = (
 				F7F99C372211F96400D13C4C /* Continuum */,
 				F7F99C362211F96400D13C4C /* Products */,
+				AB0BE6E1252FDCBA00619C30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +170,12 @@
 		F7F99C372211F96400D13C4C /* Continuum */ = {
 			isa = PBXGroup;
 			children = (
-				F7F99C382211F96400D13C4C /* AppDelegate.swift */,
-				F7F99C3C2211F96400D13C4C /* Main.storyboard */,
-				F7F99C3F2211F96600D13C4C /* Assets.xcassets */,
-				F7F99C412211F96600D13C4C /* LaunchScreen.storyboard */,
-				F7F99C442211F96600D13C4C /* Info.plist */,
+				AB0BE6DF252FDC9200619C30 /* Continuum.entitlements */,
+				AB2D2494252D0A14002A96C8 /* Models */,
+				AB2D2493252D0A0D002A96C8 /* Views */,
+				AB2D2492252D0A04002A96C8 /* Controllers */,
+				AB2D24AD252D0FD2002A96C8 /* Helpers */,
+				AB2D248E252D099E002A96C8 /* Resources */,
 			);
 			path = Continuum;
 			sourceTree = "<group>";
@@ -88,11 +207,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = trevorAdcock;
 				TargetAttributes = {
 					F7F99C342211F96400D13C4C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -132,7 +252,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2D24A4252D0B7D002A96C8 /* PostDetailTableViewController.swift in Sources */,
+				AB2D24BD252D2733002A96C8 /* DateExtension.swift in Sources */,
 				F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */,
+				AB2D249D252D0A65002A96C8 /* Comment.swift in Sources */,
+				AB2D2499252D0A4A002A96C8 /* Post.swift in Sources */,
+				AB2D24AB252D0F59002A96C8 /* PostController.swift in Sources */,
+				ABAF9517252F83D400E7D509 /* PhotoSelectorViewController.swift in Sources */,
+				AB2D24AF252D0FE8002A96C8 /* PostError.swift in Sources */,
+				AB2D24A7252D0B8F002A96C8 /* AddPostTableViewController.swift in Sources */,
+				AB2D24A1252D0B5E002A96C8 /* PostListTableViewController.swift in Sources */,
+				AB2D24B8252D15CD002A96C8 /* PostTableViewCell.swift in Sources */,
+				ABAF9511252E626700E7D509 /* SearchableRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +315,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -245,6 +377,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -278,16 +411,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Continuum/Continuum.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77U2457882;
-				INFOPLIST_FILE = Continuum/Info.plist;
+				DEVELOPMENT_TEAM = HB59AGWRUY;
+				INFOPLIST_FILE = Continuum/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Continuum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorBursach.Continuum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -296,16 +431,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Continuum/Continuum.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77U2457882;
-				INFOPLIST_FILE = Continuum/Info.plist;
+				DEVELOPMENT_TEAM = HB59AGWRUY;
+				INFOPLIST_FILE = Continuum/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Continuum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorBursach.Continuum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
